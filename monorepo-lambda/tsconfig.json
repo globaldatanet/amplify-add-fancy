@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "declaration": false,
+      "target": "ES2017",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "rootDir": ".",
+      "lib": ["es2017"],
+      "typeRoots": ["node_modules/@types"],
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "sourceMap": false,
+      "strict": true,
+      "baseUrl": ".",
+      "outDir": "./"
+    },
+    "include": ["./**/*"],
+    "exclude": ["node_modules"]
+  }

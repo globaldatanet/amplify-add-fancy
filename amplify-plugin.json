@@ -1,0 +1,6 @@
+{
+  "name": "add-fancy",
+  "type": "util",
+  "commands": ["version", "help", "typescript", "monorepo"],
+  "eventHandlers": ["PrePush", "PostPush"]
+}
