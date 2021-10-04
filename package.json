@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "npm run test -- --coverage --silent",
+    "test": "jest --passWithNoTests"
   },
   "author": "",
   "license": "ISC",
@@ -12,8 +13,16 @@
     "amplify-category-function": "^2.34.7"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.2",
+    "jest": "^27.2.4",
     "prettier": "^2.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
   }
 }
