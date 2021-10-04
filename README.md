@@ -33,3 +33,8 @@ Now you can use follow commands
 | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | `amplify add-fancy typescript` | Add a Typescript-Function                                                                              |
 | `amplify add-fancy monorepo`   | Turns your `function`- folder into a Monorepo. **NOTE:** This makes sense with more than two functions |
+
+## Have a fancy idea?
+
+More fancy ideas or any other contributions are more than welcome.
+Please, follow the [Contribution Guide](https://github.com/globaldatanet/amplify-add-fancy/blob/main/CONTRIBUTING.md) and/or submit a new [issue](https://github.com/globaldatanet/amplify-add-fancy/issues/new/choose).
