@@ -3,7 +3,7 @@ module.exports = {
 	restoreMocks: true,
 	resetModules: true,
 	testEnvironment: "node",
-	testPathIgnorePatterns: ["<rootDir>/node_modules", "<rootDir>/monorepo-lambda"],
+	testPathIgnorePatterns: ["<rootDir>/node_modules", "<rootDir>/monorepo-lambda", "<rootDir>/typescript-lambda"],
 	coveragePathIgnorePatterns: ["<rootDir>/test/mocks"],
 	collectCoverageFrom: ["event-handlers/**/*.js", "commands/*.js"],
 	coverageReporters: ["json", "lcov", "json-summary", "text"],
