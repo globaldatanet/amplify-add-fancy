@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "coverage": "npm run test -- --coverage --silent",
+    "coverage": "pnpm run test -- --coverage --silent",
     "test": "jest --passWithNoTests"
   },
   "author": "",
