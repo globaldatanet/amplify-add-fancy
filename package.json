@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run test"
+      "pre-push": "pnpm run test"
     }
   }
 }
